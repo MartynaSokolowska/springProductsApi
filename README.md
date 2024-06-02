@@ -21,7 +21,7 @@ Jackson Core, Jackson Databind, Jackson Dataformat XML: Utilizes the Jackson lib
 
 ## Installation
 Clone the repository.
-It was writen in inteliJ.
+It was writen in inteliJ using gradle.
 
 ## Usage 
 Place your XML file with product records in a known location.
