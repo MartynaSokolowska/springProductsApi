@@ -1,8 +1,8 @@
-package org.example.services;
+package api.services;
 
+import api.models.Product;
+import api.models.Products;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
-import org.example.models.Product;
-import org.example.models.Products;
 import org.springframework.stereotype.Service;
 
 import java.io.File;

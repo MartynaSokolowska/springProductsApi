@@ -1,8 +1,8 @@
-package org.example.controllers;
+package api.controllers;
 
+import api.models.Product;
+import api.services.ProductsService;
 import com.fasterxml.jackson.core.JsonProcessingException;
-import org.example.models.Product;
-import org.example.services.ProductsService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;

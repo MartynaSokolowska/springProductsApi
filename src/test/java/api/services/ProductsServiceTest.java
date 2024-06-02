@@ -1,8 +1,8 @@
-package org.example.services;
+package api.services;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import org.example.models.Product;
+import api.models.Product;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeEach;
 import java.net.URL;
