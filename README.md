@@ -40,43 +40,5 @@ Returns JSON with products.
 Returns JSON with product under given name.
 
 ## Example file
-'''xml
-<?xml version="1.0" encoding="UTF-8"?>
-<Products>
-    <Product id="1">
-        <Name>apple</Name>
-        <Category>fruit</Category>
+![image](https://github.com/MartynaSokolowska/springProductsApi/assets/115418969/5494b7e0-f561-4769-b4e1-1162db80d086)
 
-        <PartNumberNR>2303-E1A-G-M-W209B-VM</PartNumberNR>
-
-        <CompanyName>FruitsAll</CompanyName>
-
-        <Active>true</Active>
-    </Product>
-    <Product id="2">
-
-        <Name>orange</Name>
-        <Category>fruit</Category>
-
-        <PartNumberNR>5603-J1A-G-M-W982F-PO</PartNumberNR>
-
-        <CompanyName>FruitsAll</CompanyName>
-
-        <Active>false</Active>
-
-    </Product>
-    <Product id="3">
-
-        <Name>glass</Name>
-        <Category>dish</Category>
-
-        <PartNumberNR>9999-E7R-Q-M-K287B-YH</PartNumberNR>
-
-        <CompanyName>HomeHome</CompanyName>
-
-        <Active>true</Active>
-
-    </Product>
-
-</Products>
-'''
