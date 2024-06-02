@@ -40,6 +40,6 @@ Returns JSON with products.
 Returns JSON with product under given name.
 
 ## Example file
-Can be found in src/test/resources/products.xml
-![image](https://github.com/MartynaSokolowska/springProductsApi/assets/115418969/5494b7e0-f561-4769-b4e1-1162db80d086)
+![image](https://github.com/MartynaSokolowska/springProductsApi/assets/115418969/5494b7e0-f561-4769-b4e1-1162db80d086)  
+Can be found in src/test/resources/products.xml.
 
