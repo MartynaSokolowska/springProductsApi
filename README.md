@@ -40,7 +40,7 @@ Returns JSON with products.
 Returns JSON with product under given name.
 
 ## Example file
-
+'''xml
 <?xml version="1.0" encoding="UTF-8"?>
 <Products>
     <Product id="1">
@@ -79,3 +79,4 @@ Returns JSON with product under given name.
     </Product>
 
 </Products>
+'''
