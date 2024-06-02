@@ -10,7 +10,7 @@ import java.util.List;
 public class Products {
     @JacksonXmlElementWrapper(useWrapping = false)
     @JacksonXmlProperty(localName = "Product")
-    private List<Product> productList;
+    private final List<Product> productList;
 
     public Products() {
         this.productList = new ArrayList<>();

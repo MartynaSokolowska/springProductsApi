@@ -22,7 +22,8 @@ public class Product {
     @JsonProperty("Active")
     private boolean active;
 
-    public Product() {}
+    public Product() {
+    }
 
     public Product(String id, String name, String category, String partNumberNR, String companyName, boolean active) {
         this.id = id;
@@ -37,47 +38,9 @@ public class Product {
         return id;
     }
 
-    public void setId(String id) {
-        this.id = id;
-    }
-
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getCategory() {
-        return category;
-    }
-
-    public void setCategory(String category) {
-        this.category = category;
-    }
-
-    public String getPartNumberNR() {
-        return partNumberNR;
-    }
-
-    public void setPartNumberNR(String partNumberNR) {
-        this.partNumberNR = partNumberNR;
-    }
-
-    public String getCompanyName() {
-        return companyName;
-    }
-
-    public void setCompanyName(String companyName) {
-        this.companyName = companyName;
-    }
-
-    public boolean isActive() {
-        return active;
-    }
-
-    public void setActive(boolean active) {
-        this.active = active;
-    }
 }
+

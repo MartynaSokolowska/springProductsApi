@@ -5,10 +5,8 @@ import org.example.models.Product;
 import org.example.models.Products;
 import org.springframework.stereotype.Service;
 
-import javax.annotation.PostConstruct;
 import java.io.File;
 import java.io.IOException;
-import java.net.URL;
 import java.util.List;
 
 @Service
@@ -45,20 +43,5 @@ public class ProductsService {
                 .filter(product -> product.getName().equalsIgnoreCase(name))
                 .findFirst()
                 .orElse(null);
-    }
-
-
-    public void defaultLoadDataFromXML(){
-        // Loading data from products.xml in resources. Might be used in initialization state
-        ClassLoader classLoader = ProductsService.class.getClassLoader();
-        URL resource = classLoader.getResource("products.xml");
-        parseXML(resource.getFile());
-    }
-
-
-    @PostConstruct
-    public void init() {
-        // Loading data in the initialization state
-        // defaultLoadDataFromXML();
     }
 }

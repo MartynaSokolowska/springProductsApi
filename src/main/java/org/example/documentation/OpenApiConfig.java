@@ -15,7 +15,7 @@ public class OpenApiConfig {
                 .info(new Info().title("Products API Documentation")
                         .version("1.0")
                         .description("Documentation for Api")
-                        .termsOfService("http://example.com/terms/")
-                        .license(new License().name("Apache 2.0").url("http://springdoc.org")));
+                        .termsOfService("https://example.com/terms/")
+                        .license(new License().name("Apache 2.0").url("https://springdoc.org")));
     }
 }
