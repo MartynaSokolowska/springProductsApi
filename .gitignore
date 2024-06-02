@@ -1,0 +1,22 @@
+# Ignoruj katalogi build i gradle
+/build/
+/gradle/
+
+# Ignoruj pliki konfiguracji IntelliJ IDEA
+/.idea/
+/.gradle/
+
+# Ignoruj pliki tymczasowe systemu operacyjnego
+*.log
+*.lock
+*.tmp
+
+# Ignoruj pliki wykonane przez IntelliJ IDEA
+*.iml
+*.iws
+.DS_Store
+
+# Ignoruj inne pliki tymczasowe
+*.swp
+*.swo
+*.bak
