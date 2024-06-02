@@ -1,6 +1,5 @@
 # Ignoruj katalogi build i gradle
 /build/
-/gradle/
 
 # Ignoruj pliki konfiguracji IntelliJ IDEA
 /.idea/
