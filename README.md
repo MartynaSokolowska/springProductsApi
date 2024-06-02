@@ -1,7 +1,7 @@
 # Products API
 ## Overview
 
-This project provides an API to manage products from an XML file. The API offers endpoints to read the XML file, get the number of records, list all products, and fetch a product by its name. The solution is implemented in Java using Spring Boot.
+This project provides an API to manage products from an XML file. The API offers endpoints to read the XML file, list all products, and fetch a product by its name. The solution is implemented in Java using Spring Boot.
 
 ## Features
 
